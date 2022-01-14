@@ -1,0 +1,33 @@
+.aside {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 265px;
+    background-color: aqua;
+}
+
+.brand {
+    display: flex;
+    background-color: #242939;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+    height: 72px;
+    width: 100%;
+}
+.brand-logo img {
+    height: 30px;
+}
+
+.aside-menu {
+    position: relative;
+}
+
+.menu-item {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+}
